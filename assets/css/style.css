@@ -1,0 +1,88 @@
+@CHARSET "UTF-8";
+
+body {
+	font-family: 'Helevetica,Verdana,Arial', sans-serif;
+}
+
+#container {
+	width:600px;
+	border: 1px solid grey;
+	margin: 0 auto;
+	padding: 0.8em;
+	border-radius: 5px;
+}
+
+#image-container {
+	background-color: grey;
+	padding: 0.5em
+}
+
+#image-container img {
+	width: 200px;
+	margin: 0 auto;
+	display: block
+}
+
+#title-container {
+	padding: 0.5em;
+}
+
+#title-container h3 {
+	font-weight: bold;
+	text-align: center;
+}
+
+#seekbar-outer {
+	background: transparent;
+	border: 1px solid grey;
+	height: 10px;
+}
+
+#seekbar-inner {
+	height: 10px;
+	background: grey;
+	width: 0%;
+}
+
+#controls-container {
+	display: inline-block;
+	width: 100%;
+}
+
+#controls-container div {
+	float: left;
+	width: 33.33%;
+	text-align: center;
+	padding-top: 0.5em;
+	font-size: 2em;
+}
+
+#controls-container div span {
+	margin-right: 0.5em;
+}
+
+#playlist ul {
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+
+#playlist ul li {
+	padding: 0.5em 0em;
+	border-bottom: 1px solid grey;
+	display: inline-block;
+	width: 100%;
+}
+#playlist ul li:last-child {
+	border-bottom: none;
+}
+
+#playlist ul li span:first-child {
+	float:left;
+	margin-left: 0.3em;
+}
+
+#playlist ul li span:last-child {
+	float:right;
+	margin-right: 0.3em;
+	cursor: pointer;
+}
